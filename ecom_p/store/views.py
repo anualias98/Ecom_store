@@ -4,4 +4,6 @@ from django.shortcuts import render
 def index(request):
     return render(request,'index.html')
 def collections(request):
-    return render(request,'collection.html')
+    return render(request,'collections.html')
+def loginn(request):
+    return render(request,'login.html')
